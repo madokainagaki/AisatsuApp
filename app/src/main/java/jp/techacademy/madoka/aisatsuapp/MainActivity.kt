@@ -38,6 +38,7 @@ class MainActivity : AppCompatActivity() {
 
         timePickerDialog.show()
     }
+    
 
     private fun aisatsu(){
         textview2.text = "ただ今の時刻は${newHour}時${newminute}分です。"
@@ -54,6 +55,4 @@ class MainActivity : AppCompatActivity() {
             textview1.setText("こんばんは")
         }
     }
-
-
 }
